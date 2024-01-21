@@ -1,0 +1,20 @@
+<form action="./auth/setkey.php" method="post">
+    <div class="mb-3">
+      <label for="time" class="form-label">Waktu Aktif</label>
+      <select name="minutes" class="form-select" aria-label="Default select example">
+        <option value="1">1 Menit</option>
+        <option value="5">5 Menit</option>
+        <option value="10">10 Menit</option>
+        <option value="10">15 Menit</option>
+        <option value="30">30 Menit</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <div class="form-floating">
+        <textarea name="key" class="form-control" placeholder="Leave a key here" id="floatingTextarea" style=" height: 300px;"></textarea>
+        <label for="floatingTextarea">Private key</label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-dark">Set Key</button>
+  </form>
+  
